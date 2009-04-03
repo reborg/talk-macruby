@@ -1,0 +1,29 @@
+= Writing Apps with HotCocoa and MacRuby
+
+== DESCRIPTION:
+
+This is my talk on Writing Apps with HotCocoa and MacRuby slides, outlines and all supporting files. I will fork a branch for each re-incarnation of the same talk for different events.
+
+== LICENSE:
+
+Creative Commons Liense - Attribution-NonCommercial-NoDerivs 2.5
+
+You are free  to copy, distribute, display, and perform the work under 
+the following conditions:
+ 	
+- ATTRIBUTION. You must attribute the work in the manner specified by 
+  the author or licensor.
+ 	
+- NONCOMERCIAL. You may not use this work for commercial purposes.
+ 	
+- NO DERIVATIVE WORKS. You  may  not alter, transform, or build upon 
+  this work.
+
+For any  reuse or distribution,  you  must  make  clear  to others the
+license terms of this work.  Any of these  conditions can be waived if  
+you get  permission from the copyright holder. Your fair use and other
+rights are in no way affected by the above.
+
+Copyright (c) 2009 - Renzo Borgatti
+
+http://creativecommons.org/licenses/by-nc-sa/2.5/legalcode
