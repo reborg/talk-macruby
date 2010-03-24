@@ -1,8 +1,11 @@
-= Writing Apps with HotCocoa and MacRuby
+= MacRuby for Ruby Developers
 
 == DESCRIPTION:
 
-This is my talk on Writing Apps with HotCocoa and MacRuby slides, outlines and all supporting files. I will fork a branch for each re-incarnation of the same talk for different events.
+Developing applications on the Mac is fun and instructive but if you're a Ruby developer Objective-C can be intimidating at first. Fear not! With MacRuby you can still enjoy your favorite language by leveraging all the power of Cocoa and the Mac and gradually learn the new API. Learn how to TDD with MacRuby, how to persist objects with CoreData and to use XCode only when you need to.
+
+== WHERE:
+Scottish Ruby Conference, 27-28 March 2010
 
 == LICENSE:
 
