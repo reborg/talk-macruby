@@ -1,7 +1,0 @@
-Title: Writing Apps with HotCocoa and MacRuby
-
-Abstract: 
-Pomodori is a tool for the Pomodoro Technique written using HotCocoa under MacRuby, the Ruby implementation for Mac OS. In this talk you'll see how easy it is to write native Cocoa applications like Pomodori thanks to HotCocoa, a thin layer around the Cocoa framework. You'll learn also about how to test first the UI and which architecture to use to model the interaction.
-
-Bio:
-Renzo Borgatti is software engineer at AgilePartners where he's a Rails developer and Agile coach. He often speaks at user groups and conferences and write about technology and agile practices on his blog at http://blog.reborg.net. He's author of Pomodori, a tool for the Pomodoro Technique (http://reborg.github.com/pomodori).
