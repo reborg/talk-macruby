@@ -25,7 +25,7 @@ class ShortifyController
       defaultButton: 'OK',
       alternateButton: nil,
       otherButton: nil,
-      informativeTextWithFormat: Url.all.join(',')).runModal
+      informativeTextWithFormat: Url.all.join(", ")).runModal
   end
 
 end
