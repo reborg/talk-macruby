@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>3</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>run_suite.rb</string>
+								<string>environment.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>run_suite.rb</string>
+										<string>environment.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8F9C308213211BD7004A5B1A</string>
+										<string>8F9C308A13211C3A004A5B1A</string>
 										<key>history</key>
 										<array>
 											<string>8F6EDD9A115E380D000E79A9</string>
@@ -337,10 +335,10 @@
 											<string>8F6EDD9D115E380D000E79A9</string>
 											<string>8F6EDD9E115E380D000E79A9</string>
 											<string>8F6EDD9F115E380D000E79A9</string>
-											<string>8F9C307F13211BD7004A5B1A</string>
 											<string>8F9C308013211BD7004A5B1A</string>
 											<string>8F9C308113211BD7004A5B1A</string>
-											<string>8F6EDD99115E380D000E79A9</string>
+											<string>8F9C308913211C3A004A5B1A</string>
+											<string>8F9C307F13211BD7004A5B1A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,6 +360,8 @@
 							<string>282pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
