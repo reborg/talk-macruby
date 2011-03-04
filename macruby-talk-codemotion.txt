@@ -1,0 +1,13 @@
+Titolo
+Introduzione a MacRuby
+
+Abstract
+MacRuby e' un'implementazione del linguaggio Ruby 1.9 basata sul runtime Objective-C di Apple. MacRuby pu˜ contare su alcuni elementi peculiari dell'architettura Mac, come threads nativi, il garbage collector o GCD all'insegna della flessibilitˆ e delle performances. In questo talk vedremo alcuni esempi pratici e se possiedi un Mac potrai iniziare ad usare MacRuby da oggi per interfacciarti a tutte le applicazioni native per Mac. 
+
+Erogazione
+Il talk e' prevalentemente pratico con alcune slides teoriche. Mostrero' esempi in tempo reale al pubblico e partiro' dai fondamentali. Per questo ritengo si tratti di tutorial.
+
+Note
+
+Biografia
+Ho cominciato la mia carriera come consulente Java migrando poi a Ruby on Rails circa 4 anni fa. Ultimamente sto sviluppando anche su iPhone. Sono autore per ThinkCodeTV dello screencast su MacRuby. Dopo alcuni anni negli States risiedo ora a Londra dove sono Lead Developer per Teamly.com

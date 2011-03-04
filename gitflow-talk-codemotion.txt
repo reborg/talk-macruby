@@ -1,0 +1,14 @@
+BIO
+Ho cominciato la mia carriera come consulente Java migrando poi a Ruby on Rails circa 4 anni fa. Ultimamente sto sviluppando anche su iPhone. Nel turbine tecnologico, mi sono anche interessato di processi di sviluppo, utilizzando e promulgando le pratiche agili dal 2005. Dopo alcuni anni negli States risiedo ora a Londra dove sono Lead Developer per Teamly.com
+
+Titolo
+Git flow
+
+Abstract
+Quando ho iniziato ad utilizzare Git per il versionamento dei sorgenti non avevo bene idea di come sfruttarne le decantate potenzialita'  come la facilita' di branching o il commit locale finendo per usarlo come Svn. Grazie a Git-Flow ho finalmente capito cosa Git si aspettava da me! Git-Flow astrae un possibile paradigma d'uso per Git diminuendone immensamente la curva di apprendimento ed insegnando allo stesso tempo come si sfrutta Git.
+
+EROGAZIONE
+Il talk dimostra praticamente come utilizzare git-flow con esempi relativi a casi d'uso ricorrenti.
+
+NOTE
+So che anche Bruno Bossola presenta Git. Gli chiedo volentieri di fondere i talks se lui e' interessato. Questo nel caso vogliate approvare entrambe i talk ma magari averne due su Git non e' una grande idea. Se Bruno non e' interessato, gli cedo volentieri il palco.

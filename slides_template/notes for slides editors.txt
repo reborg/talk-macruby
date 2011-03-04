@@ -1,0 +1,29 @@
+Codemotion 2011
+---------------
+
+• Notes for slides editors •
+
+A template is provided, which has to be used for presentation editing.
+We recommend to use the OpenOffice.org version.
+
+In order to properly edit your slides you have to install the League Gothic font, provided under Open Font License 1.1 by The League Of Movable Type (http://theleagueofmoveabletype.com).
+
+You can find several file formats included in your slides bundle.
+
+We recommend to use League Gothic also for headings in your slides and Georgia for body text. 
+
+To put your name and affiliation you have to edit the master slide, in order to keep consistent data across pages.
+
+
+• Note per gli editor delle slide •
+
+Viene fornito un templare da utilizzare per l'editing delle slide.
+Raccomandiamo di usare la versione OpenOffice.org.
+
+Per editor correttamente le slide dovrai installare il font League Gothic, fornito sotto licenza Open Font License 1.1 da The League Of Movable Type.
+
+Puoi trovare il font in diversi formati nel pacchetto per le slides.
+
+Raccomandiamo di utilizzare League Gothic anche per le intestazioni delle tue slides e Georgia per il corpo principale del testo.
+
+Per inserire il tuo nome ed affiliazione devi modificare la master slide così da presentare una informazione consistente su tutte le pagine.
