@@ -1,0 +1,22 @@
+CLEANUP:
+rm -rf "/Users/reborg/Documents/talks/talk-macruby/src/Shortfiy"
+rm -rf "/Users/reborg/Library/Application Support/Shortify/shortify.xml"
+
+PREPARATION:
+- XCode, create new project
+- Select macruby template, set name, save to /Users/reborg/Documents/talks/talk-macruby/src/Shortify
+- Show project already buildable
+- Switch target to test, cmd+B show we already have a failing test
+- Briefly explain we have also a compile and deploy build targets and what they are
+- Explain we can run the tests easily from the command line using just a rakefile
+- Open terminal, goto ~/tmp/Shortify
+- Execute expansion `1
+- Open te rakefile in vi to show the content
+- Back to terminal run the rake command and show test results
+- Back to XCode, show the test file, fix it
+- Run the test target, show the green bars
+- Run rake from command line, show 0 failures
+
+TESTING INFRASTRUCTURE:
+- Explain this is plain TestUnit which is fine, but Bacon + Mocha would be better
+- Execute expansion `1
