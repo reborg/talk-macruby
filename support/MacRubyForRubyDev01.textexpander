@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>MacRubyForRubyDev01</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>`0</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:07:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>rakefile</string>
+			<key>lastUsed</key>
+			<date>2011-03-04T13:30:37Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:16:58Z</date>
+			<key>plainText</key>
+			<string>echo "task :default =&gt; [:test]
+
+desc 'Run the test suite'
+task :test do
+  sh %{macruby Tests/run_suite.rb}
+end" &gt; Rakefile
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>CCBD87F4-7EB1-4C3F-9D96-F58953BE67B1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:08:25Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>add bacon gem</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T11:48:41Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:27:29Z</date>
+			<key>plainText</key>
+			<string>mkdir vendor; mkdir vendor/gems; cp -r ../../support/bacon vendor/gems
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>92C2DEE4-39BB-4215-9E15-490B16BA2C8D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:09:32Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>create environment.rb</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:40:29Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:03Z</date>
+			<key>plainText</key>
+			<string>mkdir config; echo "APP_ROOT = File.expand_path(File.dirname(__FILE__) + '/..')
+['bacon/lib'].each do |path|
+  \$LOAD_PATH &lt;&lt; APP_ROOT + '/vendor/gems/' + path
+end" &gt; config/environment.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>5202E2D3-18EC-4624-964A-939C647ECA8A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`3</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:10:03Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>create spec_helper</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:40:34Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:07Z</date>
+			<key>plainText</key>
+			<string>echo "require File.expand_path(File.dirname(__FILE__) + '/../config/environment')
+require 'bacon'
+Bacon.summary_on_exit" &gt; Tests/spec_helper.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>6069CCFA-5D76-4863-9780-58126D126122</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`4</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:10:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>test spec</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:40:37Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:10Z</date>
+			<key>plainText</key>
+			<string>echo "require File.dirname(__FILE__) + '/spec_helper'
+describe 'like a charm' do
+  before do
+  end 
+  it 'should do something interesting' do
+    false.should == false
+  end 
+end" &gt; Tests/spec_test.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>23695154-4304-4785-8031-20EE8CEB4A9D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`5</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:11:04Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>add mocha</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:46:34Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T12:47:30Z</date>
+			<key>plainText</key>
+			<string>cp -r ../../support/mocha vendor/gems;
+echo "APP_ROOT = File.expand_path(File.dirname(__FILE__) + '/..')
+['bacon/lib', 'mocha/lib'].each do |path|
+  \$LOAD_PATH &lt;&lt; APP_ROOT + '/vendor/gems/' + path
+end" &gt; config/environment.rb;
+echo "require File.expand_path(File.dirname(__FILE__) + '/../config/environment')
+require 'bacon'
+Bacon.summary_on_exit
+require 'mocha'" &gt; Tests/spec_helper.rb
+</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>8</integer>
+			<key>uuidString</key>
+			<string>EB4CF0CE-4110-4985-80FA-B03B6DAE28AE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`6</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:12:23Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>first test</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:41:41Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:15Z</date>
+			<key>plainText</key>
+			<string>echo "require File.dirname(__FILE__) + '/spec_helper'
+require 'shortify_controller'
+framework 'cocoa'
+
+describe 'with long URLs' do
+
+  before do
+    @controller = ShortifyController.new
+    @controller.input = NSTextField.new
+    pasteboard = 'pasteboard'
+    pasteboard.stubs(:stringForType).returns('some')
+    NSPasteboard.stubs(:generalPasteboard).returns(pasteboard)
+  end
+
+  it 'copies the content of the clipboard' do
+    @controller.pasteboard_to_input
+    @controller.input.stringValue.should == 'some'
+  end
+
+end" &gt; Tests/shortify_controller_test.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>A74EC74B-FC19-46B4-998D-C5A1DFC26C28</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`7</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:12:49Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>add classes to path</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T10:28:32Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:17Z</date>
+			<key>plainText</key>
+			<string>mkdir Classes;
+echo "APP_ROOT = File.expand_path(File.dirname(__FILE__) + '/..')
+\$LOAD_PATH &lt;&lt; APP_ROOT + '/Classes'
+['bacon/lib', 'mocha/lib'].each do |path|
+  \$LOAD_PATH &lt;&lt; APP_ROOT + '/vendor/gems/' + path
+end" &gt; config/environment.rb;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>4ECE2018-7E29-43AD-ADE3-98072D91B3BE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`8</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:13:46Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>create controller</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T11:53:26Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:20Z</date>
+			<key>plainText</key>
+			<string>echo "class ShortifyController
+
+  attr_accessor :input, :output
+  
+  def applicationDidFinishLaunching(sender)
+    self.pasteboard_to_input
+  end
+
+  def pasteboard_to_input
+    pasteBoard = NSPasteboard.generalPasteboard
+    @input.stringValue = pasteBoard.stringForType(NSStringPboardType) || ''
+  end 
+  
+end" &gt; Classes/shortify_controller.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>9C052DBB-38B1-4B0B-9534-1CB24596C5C8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`9</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:15:39Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>add url call controller</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:01:39Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:17:24Z</date>
+			<key>plainText</key>
+			<string>echo "
+class ShortifyController
+
+  attr_accessor :input, :output
+  
+  def applicationDidFinishLaunching(sender)
+    self.pasteboard_to_input
+  end 
+
+  def pasteboard_to_input
+    pasteBoard = NSPasteboard.generalPasteboard
+    @input.stringValue = pasteBoard.stringForType(NSStringPboardType) || ''
+  end
+  
+  def shortify(sender)
+    require 'net/http'
+    result = Net::HTTP.get 'shortr.info', '/make-shortr.php?url=' + 
+      @input.stringValue + '&amp;format=plain'
+    @output.stringValue = result.gsub('SUCCESS::', '')
+  end
+
+end
+" &gt; Classes/shortify_controller.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>9A700414-4D66-4FAF-A5D4-93D11439DD01</string>
+		</dict>
+	</array>
+</dict>
+</plist>

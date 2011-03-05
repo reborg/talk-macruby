@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>MacRubyForRubyDev02</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>\0</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:19:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>create url class</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:07:12Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:20:48Z</date>
+			<key>plainText</key>
+			<string>echo "
+class Url &lt; PersistentObject
+  def to_s
+    'Original: ' + self.original + ', Shortified' + self.shortified
+  end
+end" &gt; Classes/url.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>A2412F41-E7B4-4408-876C-0147DED8184C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>\1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:20:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>add url create</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:10:14Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:20:51Z</date>
+			<key>plainText</key>
+			<string>echo "
+class ShortifyController
+
+  attr_accessor :input, :output
+  
+  def applicationDidFinishLaunching(sender)
+    self.pasteboard_to_input
+  end 
+
+  def pasteboard_to_input
+    pasteBoard = NSPasteboard.generalPasteboard
+    @input.stringValue = pasteBoard.stringForType(NSStringPboardType) || ''
+  end
+  
+  def shortify(sender)
+    require 'net/http'
+    result = Net::HTTP.get 'shortr.info', '/make-shortr.php?url=' + 
+      @input.stringValue + '&amp;format=plain'
+    @output.stringValue = result.gsub('SUCCESS::', '')
+    Url.create(:original=&gt;@input.stringValue, :shortified =&gt; @output.stringValue)
+  end
+end" &gt; Classes/shortify_controller.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>86F7B0E9-3531-421E-9D5A-A928CFC27DD6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>\2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-27T00:20:53Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>history method to controller</string>
+			<key>lastUsed</key>
+			<date>2010-03-27T12:11:35Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-27T00:20:53Z</date>
+			<key>plainText</key>
+			<string>echo "
+class ShortifyController
+
+  attr_accessor :input, :output
+  
+  def applicationDidFinishLaunching(sender)
+    self.pasteboard_to_input
+  end 
+
+  def pasteboard_to_input
+    pasteBoard = NSPasteboard.generalPasteboard
+    @input.stringValue = pasteBoard.stringForType(NSStringPboardType) || ''
+  end
+  
+  def shortify(sender)
+    require 'net/http'
+    result = Net::HTTP.get 'shortr.info', '/make-shortr.php?url=' + 
+      @input.stringValue + '&amp;format=plain'
+    @output.stringValue = result.gsub('SUCCESS::', '')
+    Url.create(:original=&gt;@input.stringValue, :shortified =&gt; @output.stringValue)
+  end
+  
+  def history(sender)
+    NSAlert.alertWithMessageText('History',
+      defaultButton: 'OK',
+      alternateButton: nil,
+      otherButton: nil,
+      informativeTextWithFormat: Url.all.join(',')).runModal
+  end
+
+end" &gt; Classes/shortify_controller.rb
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>2DB40F8B-44E1-4464-B372-7816EB07F801</string>
+		</dict>
+	</array>
+</dict>
+</plist>
