@@ -54,6 +54,7 @@
 		8F6EDD52115E2C29000E79A9 /* persistent_object.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8F6EDD50115E2C29000E79A9 /* persistent_object.rb */; };
 		8F6EDD54115E2CA0000E79A9 /* url.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8F6EDD53115E2CA0000E79A9 /* url.rb */; };
 		8F6EDD5A115E2CD4000E79A9 /* shortify.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8F6EDD59115E2CD4000E79A9 /* shortify.xcdatamodel */; };
+		8FB34735132260D200609643 /* Shortify.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8FB34734132260D200609643 /* Shortify.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +90,7 @@
 		8F6EDD59115E2CD4000E79A9 /* shortify.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = shortify.xcdatamodel; sourceTree = "<group>"; };
 		8F6EDD70115E34E0000E79A9 /* spec_helper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = spec_helper.rb; sourceTree = "<group>"; };
 		8F6EDD73115E3500000E79A9 /* environment.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = environment.rb; path = config/environment.rb; sourceTree = "<group>"; };
+		8FB34734132260D200609643 /* Shortify.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Shortify.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8FB34734132260D200609643 /* Shortify.icns */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -264,6 +267,7 @@
 				8F6EDD51115E2C29000E79A9 /* persistence.rb in Resources */,
 				8F6EDD52115E2C29000E79A9 /* persistent_object.rb in Resources */,
 				8F6EDD54115E2CA0000E79A9 /* url.rb in Resources */,
+				8FB34735132260D200609643 /* Shortify.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

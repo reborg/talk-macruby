@@ -1,266 +1,0 @@
-TShortify
-v7
-r0
-t321016084.691939
-cCheck dependencies
-cProcessInfoPlistFile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/Shortify.app/Contents/Resources/rb_main.rb rb_main.rb
-cCompileXIB /Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib
-cCpResource build/Debug/Shortify.app/Contents/Resources/shortify_controller.rb Classes/shortify_controller.rb
-cCpResource build/Debug/Shortify.app/Contents/Resources/url.rb Classes/url.rb
-cCpResource build/Debug/Shortify.app/Contents/Resources/persistence.rb ../../support/persistence.rb
-cCpResource build/Debug/Shortify.app/Contents/Resources/persistent_object.rb ../../support/persistent_object.rb
-cDataModelCompile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/Shortify.mom /Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel
-cCompileC build/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/main.o /Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/MacOS/Shortify normal x86_64
-cTouch /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004C238B9B00000000000000EE
-t1277397915
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
-c000000004D65A78C0000000000000106
-t1298507660
-s262
-
-N/Library/Frameworks/MacRuby.framework/MacRuby
-c000000004D6827A400000000014E8CA8
-t1298671524
-s21925032
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004CB3F2FA000000000000A5E0
-t1286861562
-s42464
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/../../support/persistence.rb
-c000000004BAD5026000000000000092B
-t1269649446
-s2347
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/../../support/persistent_object.rb
-c000000004BAD50260000000000000441
-t1269649446
-s1089
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Classes/shortify_controller.rb
-c000000004D7219810000000000000338
-t1299323265
-s824
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Classes/url.rb
-c000000004D7218A50000000000000079
-t1299323045
-s121
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/InfoPlist.strings
-c000000004D7211A000000000000000CA
-t1299321248
-s202
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib
-c000000004D7219920000000000020078
-t1299323282
-s131192
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel
-c000000004D7218F30000000000000088
-t1299323123
-s136
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app
-t1299323284
-s102
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Info.plist
-t1299321254
-s772
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/MacOS/Shortify
-t1299321255
-s9096
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/PkgInfo
-t1299321254
-s8
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1299321254
-s202
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj/MainMenu.nib
-t1299323284
-s22497
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/Shortify.mom
-t1299323284
-s1310
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/persistence.rb
-t1299323284
-s2347
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/persistent_object.rb
-t1299323284
-s1089
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/rb_main.rb
-t1299321254
-s623
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/shortify_controller.rb
-t1299323284
-s824
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/url.rb
-t1299323284
-s121
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/Shortify.LinkFileList
-c000000004D7211A6000000000000007F
-t1299321254
-s127
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/main.o
-t1299321255
-s5388
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m
-c000000004D7211A000000000000000FF
-t1299321248
-s255
-i<MacRuby/MacRuby.h>
-
-N/Users/reborg/Documents/talks/talk-macruby/src/Shortify/rb_main.rb
-c000000004D7211A0000000000000026F
-t1299321248
-s623
-
-NInfo.plist
-c000000004D7211A00000000000000345
-t1299321248
-s837
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321016084#321016084#0(0"0(0#1#0"8693621760#0"0#
-
-CCompileC build/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/main.o /Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s321014054.910280
-e321014055.386198
-r1
-xCompileC
-xbuild/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/main.o
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m321014054#321014055#0(0"0(0#0#62"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m8683032448#1135"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/Shortify.hmap -F/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug -F/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug -I/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/include -I/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/DerivedSources/x86_64 -I/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/DerivedSources -c /Users/reborg/Documents/talks/talk-macruby/src/Shortify/main.m -o /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib
-s321016084.400542
-e321016084.652266
-r1
-xCompileXIB
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:380: warning: Round Textured button cell is not supported on Mac OS X versions prior to 10.4.
-o/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:380: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
-o/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:389: warning: Round Textured button cell is not supported on Mac OS X versions prior to 10.4.
-o/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:389: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib321016084#321016084#0(723"/* com.apple.ibtool.document.warnings *//Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:380: warning: Round Textured button cell is not supported on Mac OS X versions prior to 10.4./Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:380: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:389: warning: Round Textured button cell is not supported on Mac OS X versions prior to 10.4./Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib:389: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.4(22@79"Round Textured button cell is not supported on Mac OS X versions prior to 10.4.321016084#18446744073709551615#0#0(6@82"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib321016082#380#0#380#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.321016084#18446744073709551615#0#0(6@82"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib321016082#380#0#380#0#0"0(22@79"Round Textured button cell is not supported on Mac OS X versions prior to 10.4.321016084#18446744073709551615#0#0(6@82"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib321016082#389#0#389#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.321016084#18446744073709551615#0#0(6@82"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib321016082#389#0#389#0#0"0(0#0#82"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib8691258336#416"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj/MainMenu.nib /Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
-
-CCopyStringsFile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s321014054.662397
-e321014054.831513
-r1
-xCopyStringsFile
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings321014054#321014054#0(0"0(0#0#87"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/English.lproj/InfoPlist.strings12948347152433256#401"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/Shortify.app/Contents/Resources/persistence.rb ../../support/persistence.rb
-s321016084.403269
-e321016084.412127
-r1
-xCpResource
-xbuild/Debug/Shortify.app/Contents/Resources/persistence.rb
-x../../support/persistence.rb
-lSLF07#2@33"Copy ../../support/persistence.rb321016084#321016084#0(0"0(0#0#84"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/../../support/persistence.rb8687298560#410"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/reborg/Documents/talks/talk-macruby/src/Shortify/../../support/persistence.rb /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources0#
-
-CCpResource build/Debug/Shortify.app/Contents/Resources/persistent_object.rb ../../support/persistent_object.rb
-s321016084.404940
-e321016084.415565
-r1
-xCpResource
-xbuild/Debug/Shortify.app/Contents/Resources/persistent_object.rb
-x../../support/persistent_object.rb
-lSLF07#2@39"Copy ../../support/persistent_object.rb321016084#321016084#0(0"0(0#0#90"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/../../support/persistent_object.rb8685243168#416"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/reborg/Documents/talks/talk-macruby/src/Shortify/../../support/persistent_object.rb /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources0#
-
-CCpResource build/Debug/Shortify.app/Contents/Resources/rb_main.rb rb_main.rb
-s321014054.665649
-e321014054.683478
-r1
-xCpResource
-xbuild/Debug/Shortify.app/Contents/Resources/rb_main.rb
-xrb_main.rb
-lSLF07#2@15"Copy rb_main.rb321014054#321014054#0(0"0(0#0#66"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/rb_main.rb8651924128#392"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/reborg/Documents/talks/talk-macruby/src/Shortify/rb_main.rb /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources0#
-
-CCpResource build/Debug/Shortify.app/Contents/Resources/shortify_controller.rb Classes/shortify_controller.rb
-s321016084.401563
-e321016084.411934
-r1
-xCpResource
-xbuild/Debug/Shortify.app/Contents/Resources/shortify_controller.rb
-xClasses/shortify_controller.rb
-lSLF07#2@35"Copy Classes/shortify_controller.rb321016084#321016084#0(0"0(0#0#86"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Classes/shortify_controller.rb8690726656#412"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/reborg/Documents/talks/talk-macruby/src/Shortify/Classes/shortify_controller.rb /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources0#
-
-CCpResource build/Debug/Shortify.app/Contents/Resources/url.rb Classes/url.rb
-s321016084.402491
-e321016084.412405
-r1
-xCpResource
-xbuild/Debug/Shortify.app/Contents/Resources/url.rb
-xClasses/url.rb
-lSLF07#2@19"Copy Classes/url.rb321016084#321016084#0(0"0(0#0#70"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Classes/url.rb8687411616#396"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/reborg/Documents/talks/talk-macruby/src/Shortify/Classes/url.rb /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources0#
-
-CDataModelCompile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/Shortify.mom /Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel
-s321016084.652394
-e321016084.689158
-r1
-xDataModelCompile
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/Shortify.mom
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel
-lSLF07#2@84"Compile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel321016084#321016084#0(0"0(0#0#76"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel8692881728#310"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/reborg/Documents/talks/talk-macruby/src/Shortify/Shortify.xcdatamodel /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Resources/Shortify.mom0#
-
-CLd /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/MacOS/Shortify normal x86_64
-s321014055.386292
-e321014055.691798
-r1
-xLd
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/MacOS/Shortify
-xnormal
-xx86_64
-lSLF07#2@109"Link /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/MacOS/Shortify321014055#321014055#0(0"0(0#0#0"8650037152#721"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug -F/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug -F/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug -filelist /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Shortify.build/Debug/Shortify.build/Objects-normal/x86_64/Shortify.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/MacOS/Shortify0#
-
-CProcessInfoPlistFile /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Info.plist Info.plist
-s321014054.657082
-e321014054.662311
-r1
-xProcessInfoPlistFile
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist321014054#321014054#0(0"0(0#0#66"/Users/reborg/Documents/talks/talk-macruby/src/Shortify/Info.plist8693639296#355"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    builtin-infoPlistUtility Info.plist -genpkginfo /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app/Contents/Info.plist0#
-
-CTouch /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app
-s321016084.689249
-e321016084.691899
-r1
-xTouch
-x/Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app
-lSLF07#2@86"Touch /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app321016084#321016084#0(0"0(0#0#0"8631940800#166"    cd /Users/reborg/Documents/talks/talk-macruby/src/Shortify    /usr/bin/touch -c /Users/reborg/Documents/talks/talk-macruby/src/Shortify/build/Debug/Shortify.app0#
-
