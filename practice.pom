@@ -1,22 +1,88 @@
 CLEANUP:
-rm -rf "/Users/reborg/Documents/talks/talk-macruby/src/Shortfiy"
+rm -rf "/Users/reborg/Documents/talks/talk-macruby/src/Shortify"
 rm -rf "/Users/reborg/Library/Application Support/Shortify/shortify.xml"
 
-PREPARATION:
+PREPARATION (upto expansion 0):
 - XCode, create new project
 - Select macruby template, set name, save to /Users/reborg/Documents/talks/talk-macruby/src/Shortify
 - Show project already buildable
 - Switch target to test, cmd+B show we already have a failing test
 - Briefly explain we have also a compile and deploy build targets and what they are
 - Explain we can run the tests easily from the command line using just a rakefile
-- Open terminal, goto ~/tmp/Shortify
-- Execute expansion `1
+- Open terminal, goto /Users/reborg/Documents/talks/talk-macruby/src/Shortify
+- Execute expansion `0
 - Open te rakefile in vi to show the content
 - Back to terminal run the rake command and show test results
 - Back to XCode, show the test file, fix it
 - Run the test target, show the green bars
 - Run rake from command line, show 0 failures
 
-TESTING INFRASTRUCTURE:
+LOAD VENDORED BACON:
 - Explain this is plain TestUnit which is fine, but Bacon + Mocha would be better
 - Execute expansion `1
+- Explain that I need to load whatever is in vendor at test time
+- Explain a clean solution is to use an evnironment.rb file
+- Execute expansion `2
+- Open the config/environment.rb file created and briefly explain
+
+SPEC HELPER:
+- Explain that we just need a test helper that loads the environement
+- Execute expansion `3
+- Open the Tests/test_helper.rb and show what is doing
+
+SAMPLE SPEC FILE:
+- Explain that we can create a spec file with the bacon syntax by calling the helper
+- Execute expansion `4
+- Open Tests/spec_test.rb to show the simple example
+- Go back to console and run rake
+- Explain that both testunit and bacon tests are executing at the same time
+
+VENDORED MOCHA:
+- Explain we are missing the mocking/stubbing bit, we'll use mocha
+- Execute expansion ` 5
+- Explain this is just the same as before, adding mocha to the load path ready to go
+
+SHORTIFY CONTROLLER SPEC:
+- Explain we aready to create our first real test
+- We'll start plain simple and pretend there is a controller that can respond to a method
+- Execute expansion ` 6
+- Open the spec and explain what we are trying to assert
+- Come back to the cmd line and run rake
+- Explain why specs are failing
+
+SHORTIFY CONTROLLER IN CLASSES:
+- Explain we are going to create classes in the Classes dir that needs to be in the classpath
+- Execute expansion ` 7
+- Show that Classes has been added to the classpath
+- Execute expansion ` 8
+- Open the controller class and explain what it does
+- Run rake to show we run green bars
+
+XCODE RUN TESTS NEW CLASSES:
+- Go back to XCode and add the tests file to the Tests group
+- Add the controller class to the Classes group
+- Build again to show green bars
+- Change the name of the method to show that the tests are really connected
+- Build again red bars, revert back
+
+THE INTERFACE:
+- Explain that we have a nice backend, but we miss an interface
+- Go to XCode and open the MainMenu.xib file that was created as part of the project
+- Add the input box as TextField
+- Add the Shortify button, make it respond to the Enter key equivalent
+- Add the output multiline label, cancel the text, show the border
+- Add a controller to the list of objects
+- Change the referenced class to point to our controller chosing from the list
+- Explain what an App Delegate is, and why we are making a controller the delegate
+- Draw the line from the File's Owner to the ShortifyController and select delegate
+- Draw the lines from the shortify controller to the input box and select input
+- Go back to XCode and change the Target to Shortify (no Tests)
+- Show that if we run the App now, whatever is in the clipboard is used to populate the input
+
+URL SHORTENING FEATURE:
+- Go back to the running app and show that if we hit return or click nothing happens!
+- Go back to the tests on XCode and show we are running just fine
+- Execute expansion ` 9
+- Open the controller and swho how the shortening service works
+- Opeen IB and connect the shortify button to the controller icon and select shortify
+- Switch to the Shortify target and run the app
